@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#weather-container, #recommendations-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+
